@@ -1,0 +1,374 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.clearfix::after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+/* home-wrapper starts here */
+.home-wrapper {
+    width: 100%;
+    min-width: 375px;
+    height: 600px;
+    background-image: url("../images/banner.png");
+    background-size: auto;
+    background-position: center center;
+}
+
+.home-wrapper h3 {
+    margin: 20px 0px 0px 10px;
+    float: left;
+    color: #fff;
+    font-size: 15px;
+}
+
+.urban {
+    color: #3498db;
+    margin-left: 10px;
+}
+
+.home-wrapper a {
+    float: right;
+    text-decoration: none;
+    margin: 20px 30px 0px 0px;
+    color: #ffff;
+    font-size: 12px;
+}
+
+/* banner starts here */
+.banner {
+    max-width: 550px;
+    clear: both;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    top: 120px;
+}
+
+.banner h1 {
+    word-spacing: -10px;
+    color: #fff;
+    font-size: 50px;
+    font-weight: 550;
+}
+
+.banner p {
+    color: whitesmoke;
+    line-height: 30px;
+}
+
+.banner button {
+    max-width: 200px;
+    padding: 15px 20px 30px 20px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: #3498db;
+    border-radius: 2px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+}
+
+.banner button:hover
+{
+    background-color:blue;
+}
+/* banner ends here */
+
+/*home-wrapper ends here */
+
+
+
+/* first-blog starts here */
+.first-blog {
+    min-width: 375px;
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 80px 20px 40px 20px;
+
+}
+
+.first-blog img {
+    width: 25%;
+    border-radius: 80%;
+    border: 4px solid whitesmoke;
+    float: left;
+}
+
+.blog-content {
+    width: 60%;
+    float: left;
+    margin-left: 25px;
+    padding: 5px;
+}
+
+.blog-content h2 {
+    width: 100%;
+    word-spacing: -8px;
+    margin-left: 5px;
+    font-weight: 500;
+}
+
+.first-blog p {
+    padding: 5px;
+    text-align: justify;
+    width: 100%;
+    margin-right: 25px;
+    font-size: 12px;
+    line-height: 17px;
+    color: rgb(112, 101, 101);
+}
+
+.blog-content button {
+    max-width: 130px;
+    padding: 10px 10px 25px 10px;
+    height: 20px;
+    margin-top: 20px;
+    background-color: #3498db;
+    border-radius: 2px;
+    color: #fff;
+    font-size: 11px;
+    font-weight: 900;
+    border: none;
+}
+
+/* first-blog  ends here*/
+
+
+
+/* second blog starts here */
+.blog-wrapper {
+    width: 100%;
+    background-color: #3498db;
+    margin-top: 30px;
+}
+
+.second-blog { 
+    max-width: 900px;
+    min-width: 375px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+    padding-bottom:50px;
+}
+
+.second-blog-content {
+    width: 60%;
+    float: left;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.second-blog img {
+    float: right;
+    width: 30%;
+    border: 5px solid #3498da;
+    margin-top: 20px;
+    margin-right: 20px;
+    border-radius: 80%;
+    position: relative;
+    left: 30px;
+}
+
+.second-blog-content h2 {
+    width: 100%;
+    word-spacing: -8px;
+    margin-left: 5px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.second-blog-content p {
+    padding: 5px;
+    text-align: justify;
+    width: 100%;
+    margin-right: 25px;
+    font-size: 12px;
+    line-height: 17px;
+    color: rgb(219, 219, 219);
+}
+
+.second-blog-content button {
+    max-width: 130px;
+    padding: 10px 10px 25px 10px;
+    height: 20px;
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 2px;
+    color: #3498db;
+    font-size: 11px;
+    font-weight: 900;
+    border: none;
+}
+
+/* second blog ends here */
+
+
+
+/* images-container starts here */
+.images-container { 
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.images-heading {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.images-heading h2 {
+    font-size: 25px;
+    text-align: center;
+}
+
+.images-heading p {
+    font-size: 10px;
+    text-align: center;
+    font-weight: 200;
+}
+
+.images {
+    width: 26%;
+    float: left;
+    margin-left: 15px;
+    padding: 50px 10px;
+    text-align: center;
+}
+
+.images img {
+    margin: 0 auto;
+    width: 100%;
+    border: 5px solid whitesmoke;
+    border-radius: 100%;
+}
+
+.images p {
+    text-align: justify;
+    font-size: 12px;
+    line-height: 15px;
+    color: rgb(112, 101, 101);
+    margin-top: 30px;
+}
+
+.images-container button {
+    max-width: 130px;
+    height: 20px;
+    padding: 10px 10px 25px 10px;
+    background-color: #3498db;
+    border-radius: 2px;
+    color: #fff;
+    font-size: 11px;
+    font-weight: 900;
+    border: none;
+}
+
+/* images-container ends here */
+
+/* footer starts here */
+.footer-container {
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.footer-container span {
+    margin-top: 20px;
+    font-size: 20px;
+    color: rgb(112, 101, 101);
+    padding: 5px 10px;
+    border-radius: 100%;
+    border: 4px double rgb(216, 214, 214);
+}
+
+.footer-container p {
+    color: rgb(112, 101, 101);
+    font-size: 13px;
+}
+
+hr {
+    width: 99%;
+    border-color: #3498da;
+    height: 2px;
+    background-color: #3498da;
+}
+
+/* footer ends here */
+
+@media only screen and (max-width:650px)
+{
+    .banner h1
+    {
+        font-size: 40px;
+    }
+    .banner p
+    {
+        margin: 0 auto;
+        width: 80%;
+        font-size: 15px;
+    }
+    .first-blog img
+    {
+        width: 40%;
+        clear: both;
+        margin: 0px;
+    }
+    .first-blog .blog-content
+    {
+        width:100%;
+        clear: both;
+        margin: 0px;
+        font-size: 20px;
+    }
+    .blog-content h2
+    {
+        width: 100%; 
+        font-size: 28px;
+        font-weight: 500;
+    }
+    .second-blog img
+    {
+        width: 40%; 
+        margin: 0px;
+    }
+    .second-blog .second-blog-content
+    {
+        width: 100%; 
+    }
+
+    .images
+    { 
+        width: 90%;
+        clear: both;
+        border-bottom:3px solid grey;
+        border-width: 100%;
+    }
+    .images p
+    {
+        padding: 20px 5px  ;
+        width: 60%;
+        line-height: 25px;
+        margin:0 auto ;
+        font-size: 15px;
+    }
+    .images img
+    {
+        width: 50%;
+    }
+    .images-heading h2
+    {
+        font-size:30px;
+    }
+    .images-heading p
+    { 
+         font-size: 15px;
+    }
+}
