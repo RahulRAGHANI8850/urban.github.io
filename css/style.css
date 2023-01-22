@@ -167,14 +167,15 @@ body {
 }
 
 .second-blog img {
-    float: right;
+    float: left;
     width: 30%;
     border: 5px solid #3498da;
     margin-top: 20px;
     margin-right: 20px;
     border-radius: 80%;
     position: relative;
-    left: 30px;
+    left: 40px;
+    
 }
 
 .second-blog-content h2 {
